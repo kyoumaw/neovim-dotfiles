@@ -6,7 +6,7 @@ local o = vim.o
 local autocmd = vim.api.nvim_create_autocmd
 -- Set PowerShell 
 
-o.shell = "pwsh"
+-- o.shell = "pwsh"
 
 -- o.cursorlineopt ='both' -- to enable cursorline!
 

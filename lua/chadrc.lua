@@ -21,4 +21,15 @@ M.nvdash = { load_on_startup = true }
 --      }
 -- }
 
+-- Term
+M.term = {
+  float = {
+    row = 0.05,     -- отступ сверху
+    col = 0.125,     -- отступ слева
+    width = 0.75,   -- 80% ширины экрана
+    height = 0.75, -- 75% высоты
+    border = "single",
+  },
+}
+
 return M
